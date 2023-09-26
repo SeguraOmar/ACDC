@@ -1,0 +1,27 @@
+body {
+background-color: black;
+font-family: "HARD_ROCK", serif;
+}
+
+.logo {
+    color: red;
+    
+}
+
+@font-face {
+    font-family: "HARD_ROCK";
+    src:
+    local("HARD_ROCK"), local("rocknroll_typo_crazy"), local("TheDark")
+    url("HARD_ROCK.ttf"),
+    url("rocknroll_typo_crazy.ttf"),
+    url("TheDark.ttf"),
+}
+
+.myclass {
+    width: 410px;
+    height: 408px;
+}
+
+.moninput {
+    width: 422px;
+}
