@@ -1,10 +1,16 @@
 body {
-background-color: black;
+    background: repeating-linear-gradient(
+        120deg,
+        black,
+        black 800px,
+        red 800px,
+        red 1600px);
+
 font-family: "HARD_ROCK", serif;
 }
 
 .logo {
-    color: red;
+    color: rgb(110, 12, 12);
     
 }
 
@@ -19,9 +25,7 @@ font-family: "HARD_ROCK", serif;
 
 .myclass {
     width: 410px;
-    height: 408px;
+    height: auto;
 }
 
-.moninput {
-    width: 422px;
-}
+

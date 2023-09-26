@@ -14,17 +14,17 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand fw-normal" href="#">AC<i class="logo bi bi-lightning-fill"></i>DC</a>
+            <a class="navbar-brand text-white" href="#">AC<i class="logo bi bi-lightning-fill"></i>DC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-danger" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link text-danger" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-danger" href="#">Membres</a>
@@ -32,13 +32,12 @@
                     <li class="nav-item">
                         <a class="nav-link text-danger" href="#">Discographie</a>
                     </li>
-                    <li>
-                        <a class="nav-link text-danger" href="#">Agenda de concerts</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" >Agenda des concerts</a>
                     </li>
-                    <li>
-                        <a class="nav-link text-danger" href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" >Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -46,7 +45,7 @@
 
     <header>
 
-        <div id="carouselExampleIndicators" class="carousel slide col-9 mx-auto">
+        <div id="carouselExampleIndicators" class="carousel slide col-9 mx-auto mt-2">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -83,18 +82,18 @@
 
     <section class="row m-0 justify-content-evenly text-center text-white">
         <h1 class="mt-5">AC<i class="logo bi bi-lightning-fill "></i>DC LES MEMBRES DU GROUPE</h1>
-        <img class="col-2 border border-5 border-white rounded" src="img/brian-johnson.png" alt="brian johnson" />
-        <img class="col-2 border border-white border-5 rounded" src="img/angus-young.png" alt="angus-young" />
-        <img class="col-2 border border-white border-5 rounded" src="img/steve-young.png" alt="steve-young" />
-        <img class="col-2 border border-white border-5 rounded" src="img/cliff-williams.png" alt="cliff-williams" />
-        <img class="col-2 border border-white border-5 rounded" src="img/chris-slade.png" alt="chris-slade" />
+        <img class="col-lg-2 col-8 border border-5 border-white rounded" src="img/brian-johnson.png" alt="brian johnson" />
+        <img class="col-lg-2 col-8 border border-white border-5 rounded" src="img/angus-young.png" alt="angus-young" />
+        <img class="col-lg-2 col-8 border border-white border-5 rounded" src="img/steve-young.png" alt="steve-young" />
+        <img class="col-lg-2 col-8 border border-white border-5 rounded" src="img/cliff-williams.png" alt="cliff-williams" />
+        <img class="col-lg-2 col-8 border border-white border-5 rounded" src="img/chris-slade.png" alt="chris-slade" />
     </section>
 
 
     <h2 class=" text-center text-white mt-5 m-0">AC<i class="logo bi bi-lightning-fill "></i>DC -- La Discographie --
     </h2>
-    <div class="d-flex mt-5 justify-content-evenly">
-        <div class="bg-light m-2 text-justify col-3">
+    <div class="row mt-5 justify-content-evenly">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/High-voltage-1975.jpg" alt="High Voltage">
             <h2 class="text-danger fw-bold text-center m-3">1975 : High Voltage</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -103,7 +102,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Highway-to-hell-1979.jpg" alt="Highway to hell">
             <h2 class="text-danger fw-bold text-center m-3">1979 : Higway to hell</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -112,7 +111,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Back-in-black-1980.jpg" alt="Back in black">
             <h2 class="text-danger fw-bold text-center m-3">1980 : Back in Black</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -122,8 +121,8 @@
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
     </div>
-    <div class="d-flex mt-5 justify-content-evenly">
-        <div class="bg-light m-2 text-justify col-3">
+    <div class="row mt-5 justify-content-evenly">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Who-made-who-1986.jpg" alt="Who made Who">
             <h2 class="text-danger fw-bold text-center m-3">1986 : Who made Who</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -132,7 +131,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2 myclass" src="img/Discographie/Blow-up-your-video-1988.jpg"
                 alt="Blow up your Video">
             <h2 class="text-danger fw-bold text-center m-3">1988 : Blow up your Video</h2>
@@ -142,7 +141,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Razor-edge-1990.jpg" alt="Razor edge">
             <h2 class="text-danger fw-bold text-center m-3">1990 : Razor Edge</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -152,8 +151,8 @@
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
     </div>
-    <div class="d-flex mt-5 justify-content-evenly">
-        <div class="bg-light m-2 text-justify col-3">
+    <div class="row mt-5 justify-content-evenly">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Ballbreaker-1995.jpg" alt="Ballbreaker-1995">
             <h2 class="text-danger fw-bold text-center m-3">1995 : BallBraker</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -162,7 +161,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Stiff-upper-lip-2000.jpg" alt="Stiff Upper Lip">
             <h2 class="text-danger fw-bold text-center m-3">2000 : Stiff Uper Lip</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -171,7 +170,7 @@
             </p>
             <button class="bg-danger rounded border border-none p-3 text-white fs-4 text m-3">Lire plus ...</button>
         </div>
-        <div class="bg-light m-2 text-justify col-3">
+        <div class="bg-light m-2 text-justify col-lg-3 col-8">
             <img class="img-fluid p-2" src="img/Discographie/Black-ice-2008.jpg" alt="Black ice">
             <h2 class="text-danger fw-bold text-center m-3">2008 : Black Ice</h2>
             <p class=" ms-3 fw-bold text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi
@@ -237,17 +236,21 @@
     <form class="text-center" action="/ma-page-de-traitement" method="post">
         <ul class="list-unstyled">
             <li>
-                <input class="rounded border border-none p-1 m-1" placeholder="Nom" type="text" id="name" name="user_name" />
-                <input class="rounded border border-none p-1 m-1" placeholder="Prenom" type="text" id="name" name="user_name" />
+                <input class="rounded border border-none p-1 m-1" placeholder="Nom" type="text" id="name"
+                    name="user_name" />
+                <input class="rounded border border-none p-1 m-1" placeholder="Prenom" type="text" id="name"
+                    name="user_name" />
             </li>
-            
-                
-            
+
+
+
             <li>
-                <input class="rounded border border-none p-1 m-1 moninput" placeholder="Email" type="email" id="mail" name="user_email" />
+                <input class="rounded border border-none p-1 m-1 moninput" placeholder="Email" type="email" id="mail"
+                    name="user_email" />
             </li>
             <li>
-                <textarea  class="rounded border border-none p-3 m-1 moninput" placeholder="Votre message" id="msg" name="user_message"></textarea>
+                <textarea class="rounded border border-none p-3 m-1 moninput" placeholder="Votre message" id="msg"
+                    name="user_message"></textarea>
             </li>
         </ul>
         <button class="bg-danger rounded border border-none p-2 text-white fs-4 text m-3" type="submit">Envoyer</button>
