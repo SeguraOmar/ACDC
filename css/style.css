@@ -35,7 +35,7 @@ body {
     height: auto;
 }
 
-form {
+li input, li textarea {
     font-family: "HARD_ROCK";
 }
 
@@ -49,4 +49,12 @@ font-family: "rocknroll";
 
 div h2 {
     font-family: none;
+}
+
+input::placeholder{
+    color: red;
+}
+
+textarea::placeholder{
+    color: red;
 }
