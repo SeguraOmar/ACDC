@@ -1,23 +1,22 @@
 body {
-    background: repeating-linear-gradient(
-        120deg,
-        black,
-        black 800px,
-        red 800px,
-        red 1600px);
+    background: repeating-linear-gradient(120deg,
+            black,
+            black 800px,
+            red 800px,
+            red 1600px);
 
 }
 
 .logo {
     color: rgb(110, 12, 12);
-    
+
 }
 
 @font-face {
     font-family: "HARD_ROCK";
     src:
-    url("../fonts/HARD_ROCK.ttf"),
-    
+        url("../fonts/HARD_ROCK.ttf"),
+
 }
 
 @font-face {
@@ -30,31 +29,31 @@ body {
     src: url(../fonts/rocknroll_typo_crazy.ttf);
 }
 
-.myclass {
-    width: 410px;
-    height: auto;
-}
 
-li input, li textarea {
+
+li input,
+li textarea {
     font-family: "HARD_ROCK";
 }
 
-h1, h2, nav a {
+h1,
+h2,
+nav a {
     font-family: "TheDark";
 }
 
 button {
-font-family: "rocknroll";
+    font-family: "rocknroll";
 }
 
 div h2 {
     font-family: none;
 }
 
-input::placeholder{
+input::placeholder {
     color: red;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     color: red;
 }
