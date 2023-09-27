@@ -6,7 +6,6 @@ body {
         red 800px,
         red 1600px);
 
-font-family: "HARD_ROCK", serif;
 }
 
 .logo {
@@ -17,10 +16,18 @@ font-family: "HARD_ROCK", serif;
 @font-face {
     font-family: "HARD_ROCK";
     src:
-    local("HARD_ROCK"), local("rocknroll_typo_crazy"), local("TheDark")
-    url("HARD_ROCK.ttf"),
-    url("rocknroll_typo_crazy.ttf"),
-    url("TheDark.ttf"),
+    url("../fonts/HARD_ROCK.ttf"),
+    
+}
+
+@font-face {
+    font-family: "TheDark";
+    src: url(../fonts/TheDark.ttf);
+}
+
+@font-face {
+    font-family: "rocknroll";
+    src: url(../fonts/rocknroll_typo_crazy.ttf);
 }
 
 .myclass {
@@ -28,4 +35,18 @@ font-family: "HARD_ROCK", serif;
     height: auto;
 }
 
+form {
+    font-family: "HARD_ROCK";
+}
 
+h1, h2, nav a {
+    font-family: "TheDark";
+}
+
+button {
+font-family: "rocknroll";
+}
+
+div h2 {
+    font-family: none;
+}
